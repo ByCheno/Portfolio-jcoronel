@@ -16,7 +16,7 @@ export const ProjectCard = () => {
                                     Technologies and tools applied in my project:
                                     PHP + Laravel, JavaScript + Vue Js, HTML, CSS,
                                     Bootstrap and more...</p>
-                                <a href="#" className="btn btn-primary">Visualize project</a>
+                                <a href="#" className="btn-visualize">Visualize project</a>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ export const ProjectCard = () => {
                                     Technologies and tools applied in my project:
                                     PHP + Laravel, JavaScript + Vue Js, HTML, CSS,
                                     Bootstrap and more...</p>
-                                <a href="#" className="btn btn-primary">Visualize project</a>
+                                <a href="#" className="btn-visualize">Visualize project</a>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export const ProjectCard = () => {
                                     Technologies and tools applied in my project:
                                     PHP + Laravel, JavaScript + Vue Js, HTML, CSS,
                                     Bootstrap and more...</p>
-                                <a href="#" className="btn btn-primary">Visualize project</a>
+                                <a href="#" className="btn-visualize">Visualize project</a>
                             </div>
                         </div>
                     </div>

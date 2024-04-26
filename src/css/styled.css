@@ -1,15 +1,11 @@
-.html{
-    background-color: rgb(0, 70, 30);
-}
-
 #root{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: autos;
-    background-color: rgb(0, 53, 65);
+    background-color: rgb(0, 38, 57);
     padding: 10px;
+    min-height: 100vh
 }
 
 .container-NavBar{
@@ -17,10 +13,8 @@
     justify-content: center;
     align-items: center;
     margin: 5px;
-    background-color: #0083a8;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
-    height: auto;
-    width: 20%;
+    background-color: #106a83;
+    width: auto;
     border-radius: 25px;
 }
 
@@ -45,23 +39,32 @@
 }
 
 .projects-title{
-    color: white;
-    font-size: 50px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    color: #106a83;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 15px;
     border-radius: 20px;
     padding: 10px;
+    box-shadow: 0 0 20px #106a83;
 }
 
-.projects-title:hover{
-    cursor: pointer;
-    box-shadow: 0 0 10px #007cca;
-    border-radius: 20px;
-}
-
-.card-projects{
+.card-body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #0083a8; */
-    padding: 5px;
+    flex-direction: column;
+}
+
+.btn-visualize{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    color: #106a83;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px #106a83;
+    text-decoration: none;
+    background-color: rgb(0, 38, 57);
 }

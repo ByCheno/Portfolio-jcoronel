@@ -7,6 +7,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
 
     <NavBar />
+    
     <MainLayout />
 
   </BrowserRouter>
