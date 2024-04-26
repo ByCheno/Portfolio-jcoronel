@@ -4,10 +4,12 @@
 
 #root{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: autos;
     background-color: rgb(0, 53, 65);
+    padding: 10px;
 }
 
 .container-NavBar{
@@ -29,5 +31,37 @@
 
 .imgNavBar:hover{
     cursor: pointer;
-    background-color: #00627d;
+    box-shadow: 0 0 10px #002c38;
+}
+
+.main-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: auto;
+    border-radius: 25px;
+}
+
+.projects-title{
+    color: white;
+    font-size: 50px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.projects-title:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #007cca;
+    border-radius: 20px;
+}
+
+.card-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0083a8; */
+    padding: 5px;
 }
