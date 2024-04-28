@@ -59,12 +59,48 @@
     width: 80%;
     display: flex;
     justify-content: center;
-    color: #106a83;
+    color: rgb(0, 38, 57);
     font-size: 18px;
     font-weight: bold;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 0 0 10px #106a83;
+    box-shadow: 0 0 10px rgb(0, 38, 57);
     text-decoration: none;
-    background-color: rgb(0, 38, 57);
+    background-color: #106a83;
+}
+
+/* Skills */
+.skill-img{
+    width: 100px;
+}
+
+.skill{
+    padding: 0 0 50px 0;
+    position: relative;
+}
+
+.skill-bx{
+    background-color: rgb(255, 255, 255);
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: 5px;
+}
+
+.skill h5{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.skill p{
+    color: #333;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 2em;
+}
+
+.skill-slider{
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
 }
