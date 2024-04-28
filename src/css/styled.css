@@ -39,7 +39,7 @@
 }
 
 .projects-title{
-    color: #106a83;
+    color: #ffffff;
     font-size: 30px;
     margin-top: 50px;
     margin-bottom: 15px;
@@ -59,12 +59,12 @@
     width: 80%;
     display: flex;
     justify-content: center;
-    color: rgb(0, 38, 57);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: bold;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 0 0 10px rgb(0, 38, 57);
+    border: none;
     text-decoration: none;
     background-color: #106a83;
 }
