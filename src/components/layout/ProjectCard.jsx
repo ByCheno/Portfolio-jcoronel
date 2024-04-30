@@ -8,7 +8,7 @@ export const ProjectCard = () => {
                 <div className="card" style={{width: "18rem"}}>
                     <img src={projects} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">E-commerce <bold>INFINITECS</bold></h5>
+                        <h5 className="card-title">E-commerce INFINITECS</h5>
                         <p className="card-text">
                             This project is an e-commerce about products
                             related to 3D printing, you can find both printer
@@ -26,7 +26,7 @@ export const ProjectCard = () => {
                 <div className="card" style={{width: "18rem"}}>
                         <img src={projects} className="card-img-top" alt="..."/>
                         <div className="card-body">
-                            <h5 className="card-title">E-commerce <bold>INFINITECS</bold></h5>
+                            <h5 className="card-title">E-commerce INFINITECS</h5>
                             <p className="card-text">
                                 This project is an e-commerce about products
                                 related to 3D printing, you can find both printer
@@ -44,7 +44,7 @@ export const ProjectCard = () => {
                 <div className="card" style={{width: "18rem"}}>
                         <img src={projects} className="card-img-top" alt="..."/>
                         <div className="card-body">
-                            <h5 className="card-title">E-commerce <bold>INFINITECS</bold></h5>
+                            <h5 className="card-title">E-commerce INFINITECS</h5>
                             <p className="card-text">
                                 This project is an e-commerce about products
                                 related to 3D printing, you can find both printer
